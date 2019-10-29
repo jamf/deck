@@ -14,6 +14,7 @@ import { TITUS_MODULE } from '@spinnaker/titus';
 import { ECS_MODULE } from '@spinnaker/ecs';
 import '@spinnaker/cloudfoundry';
 import { AZURE_MODULE } from '@spinnaker/azure';
+import { OVERVIEW_MODULE } from '@jamf/spin-overview';
 
 module('netflix.spinnaker', [
   CORE_MODULE,
@@ -30,4 +31,5 @@ module('netflix.spinnaker', [
   KUBERNETES_V2_MODULE,
   KAYENTA_MODULE,
   TITUS_MODULE,
+  OVERVIEW_MODULE,
 ]);

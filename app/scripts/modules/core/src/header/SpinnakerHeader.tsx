@@ -83,6 +83,13 @@ export class SpinnakerHeader extends React.Component<{}, ISpinnakerHeaderState> 
                   </UISref>
                 </UISrefActive>
               </li>
+              <li key="navOverview">
+                <UISrefActive class="active">
+                  <UISref to="home.overview">
+                    <a>Overview</a>
+                  </UISref>
+                </UISrefActive>
+              </li>
               {SETTINGS.feature.managedPipelineTemplatesV2UI ? mptv2Button : null}
             </ul>
             <ul className="nav nav-items">
