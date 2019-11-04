@@ -14,7 +14,7 @@ jobs:
         run: |
           cat << EOF >.npmrc
           //npm.pkg.github.com/:_authToken=${{secrets.SPIN_OVERVIEW_NPM_KEY}}
-          registry = https://npm.pkg.github.com/
+          @jamf:registry=https://npm.pkg.github.com/
           EOF
           docker build . --file Dockerfile.compile -t compile
       - name: Build slim image
