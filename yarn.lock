@@ -3236,10 +3236,10 @@
   dependencies:
     formik "^1.4.1"
 
-"@spinnaker/styleguide@^1.0.22":
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/@spinnaker/styleguide/-/styleguide-1.0.22.tgz#84b5523deb110eb02d5a511cf6b24ee8a5cb318b"
-  integrity sha512-/K+sF8AFmuShbFABkg57/VWNu6S8PBaYZUsGv1XF0TR1kPN6P/NcHbr6223EuyRQpArPKN7RMqmgxg5CcXzutQ==
+"@spinnaker/styleguide@^1.0.26":
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/@spinnaker/styleguide/-/styleguide-1.0.26.tgz#a0780c8491406881cc4088b379c06618ca446136"
+  integrity sha512-iFUv+qKwiqFYAXi2YRhoyblS4Re+q66ED+slYXMoQzrqLyrp4TV4LqxDgsWdsPi4LbEWOn8JjHbV20KcNFjE4w==
 
 "@storybook/addon-actions@6.0.21":
   version "6.0.21"
